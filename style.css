@@ -21,11 +21,14 @@
     height: 50px;
     width: 100%;
 }
+
 .border{
-    border: 2px solid transparent;
+    padding: 3px;
+    cursor: pointer;
+    
 }
 .border:hover{
-    border: 1.5px solid white;
+    border: 0.5px solid white;
 }
 .add-first{
     color: #CCCCCC;
@@ -40,12 +43,6 @@
 .add_icon{
     display: flex;
     align-items: center;
-}
-.border1{
-    border: 2px solid transparent;
-}
-.border1:hover{
-    border: 1.5px solid white;
 }
 
 .nav_search{
@@ -202,8 +199,38 @@ span{
 .box_content p{
     color: #007185;
 }
+
 footer{
+    margin-top: 200px;
 }
+
+
+
+.signin p1{
+    padding: 5px;
+    text-align: center;
+    display: block;
+}
+.signin button{
+    position: relative;
+    background-color: #febd68;
+    border-radius: 5%;
+    border: none;
+    padding: 10px 85px;
+    font-weight: 600;
+    text-align: center;
+}
+.signin p2{
+    display: block;
+    padding-top: 5px;
+    text-align: center;
+}
+.signin a{
+    display: block;
+    color: #007185;
+    text-align: center;
+}
+
 .foot_panel1{
     background-color: #37475a;
     color:white;
@@ -231,4 +258,64 @@ ul a{
     margin: 10px;
     font-size: 0.85rem;
     color: #dddddd;
+}
+
+.foot_panel3{
+    background-color: #222F3D;
+    border: 1px solid whitesmoke;
+    height: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo{
+    background-image: url("amazon_logo.png");
+    background-size: cover;
+    height: 50px;
+    width: 100px;
+}
+.bor{
+    border: 0.5px solid white;
+    cursor: pointer;
+}
+.globe_icon{
+    color: white;
+    padding: 10px;
+    font-size: 0.8rem;
+    border-radius: 8%;
+    margin-left: 100px;
+}
+.dollar{
+    color:white;
+    padding: 10px;
+    font-size: 0.8rem;
+    border-radius: 8%;
+    margin-left: 9px;
+}
+.flag
+{
+    color:white;
+    padding: 10px;
+    font-size: 0.8rem;
+    border-radius: 8%;
+    margin-left: 9px;
+}
+
+.foot_panel4{
+    background-color: #0f1111;
+    color: white;
+    height: 80px;
+}
+
+.pages{
+    font-size: 0.8rem;
+    text-align: center;
+    padding-top: 25px;
+}
+.copyright{
+    padding-top: 5px;
+    font-size: 0.8rem;
+    text-align: center;
+
 }
